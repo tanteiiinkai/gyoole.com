@@ -2,6 +2,7 @@ const kensakuran = document.querySelector(".kensakuran");
 const searchbutton = document.querySelector(".search");
 const basho = document.querySelector(".basho");
 const kensakukekka = document.querySelector(".kensakukekka");
+const form = document.querySelector(".form");
 function show(thing) {
     thing.classList.add("show");
     thing.classList.remove("none");
