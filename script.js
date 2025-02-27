@@ -13,6 +13,7 @@ function none(thing) {
 function search(event) {
     event.preventDefault();
     var ving = kensakuran.value;
+    console.log("検索ワード:", ving); 
     if (ving === "フラット") {
         show(kensakukekka);
         none(basho);
@@ -20,4 +21,4 @@ function search(event) {
 
     }
 };
-searchbutton.addEventListener('submit', search);
+form.addEventListener('submit', search);
