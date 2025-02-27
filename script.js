@@ -20,4 +20,4 @@ function search(event) {
 
     }
 };
-searchbutton.addEventListenner('submit', search);
+searchbutton.addEventListener('submit', search);
