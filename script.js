@@ -19,7 +19,7 @@ function search(event) {
         show(kensakukekka);
         none(basho);
     } else if (ving === "マップ") {
-
+        window.location.href = 'https://tanteiiinkai.github.io/gyoolemap.com/';
     }
 };
 form.addEventListener('submit', search);
