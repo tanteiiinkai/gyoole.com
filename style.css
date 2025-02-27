@@ -64,3 +64,9 @@ footer{
     bottom: 0; /*下に固定*/
     text-align: center;
 }
+.show {
+    display: block;
+}
+.none {
+    display: none;
+}
